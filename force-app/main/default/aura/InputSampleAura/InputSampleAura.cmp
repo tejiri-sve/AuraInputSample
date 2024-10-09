@@ -1,0 +1,10 @@
+
+<aura:component implements="flexipage:availableForAllPageTypes" access="global">
+    <lightning:card footer="Card Footer" title="Hello">
+        <div class="slds-p-around_medium">
+            <lightning:recordEditForm objectApiName="Account">
+                <lightning:inputField fieldName="Name" />
+            </lightning:recordEditForm>
+        </div>
+    </lightning:card>
+</aura:component>
